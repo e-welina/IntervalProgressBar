@@ -32,13 +32,13 @@ class CircleProgressPainter extends IntervalProgressPainter {
             intervalPercent);
 
   @override
-  Size calBlockSize() {
+  Size? calBlockSize() {
     //Circle Progress will not call this
     return null;
   }
 
   @override
-  void paintBlock(Canvas canvas, int blockIndex, Size blockSize) {
+  void paintBlock(Canvas canvas, int blockIndex, Size? blockSize) {
     //Circle Progress will not call this
   }
 
